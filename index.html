@@ -18,7 +18,7 @@
             <h1>You Can Call Me Stizzy</h1>
 
             <!-- Navbar -->
-            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: transparent;">
+            <nav id="utilityMenu" class="navbar navbar-expand-lg navbar-light" style="background-color: transparent;">
                 <div class="container-fluid">
                     <!-- <a class="navbar-brand" href="#">Navbar</a> -->
                     <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -47,18 +47,29 @@
 
 
     <!-- About Me -->
-    <section id="main" class="contentWrapper">
+<section id="main">
+    <div id="intro" class="contentWrapper">
+        <img src="./assets/headshot.jpg" alt="Headshot" style="border-radius: 50px;" width="300em" height="200em">
+        <h1>Chris Stazinski</h1>
+        <p>Being really bad at something is the first step toward being sorta good at something.</p>
+        <a href="#"><img src="./assets/linkedinLogo.png" alt="LinkedIn" height="25em" width="25em" /></a>
+    </div>
+
+    <div id="about" class="contentWrapper">
         <h1>About Me</h1>
         <h2>Bio</h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, commodi labore rerum, corporis atque nulla
             magni nobis saepe accusamus ea cumque quo tempora numquam hic soluta illum, voluptatibus veritatis unde!</p>
-        <h2>Skillsets</h2>
+        
         <!-- <div class="skillpanel">
             <img src="" alt="Icon">
             <h3>skillname</h3>
             <p>description</p>
         </div> -->
-        <div>
+        <div class="skillsets">
+        <h2>Skillsets</h2>
+        <ul>
+            <li>
             <div class="card" style="width: 5rem;">
                 <img src="./assets/htmlIcon.png" class="card-img-top" alt="HTML">
                 <div class="card-body">
@@ -67,6 +78,8 @@
                     <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                 </div>
             </div>
+            </li>
+            <li>
             <div class="card" style="width: 5rem;">
                 <img src="./assets/excelIcon.png" class="card-img-top" alt="Excel">
                 <div class="card-body">
@@ -75,21 +88,25 @@
                     <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                 </div>
             </div>
+            </li>
+            <li>
             <div class="card" style="width: 5rem;">
                 <img src="./assets/wordIcon.png" class="card-img-top" alt="Word">
                 <div class="card-body">
-                    <h5 class="card-title">HTML</h5>
+                    <h5 class="card-title">Word</h5>
                     <p class="card-text">Level: Proficient</p>
                     <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                 </div>
             </div>
+            </li>
+        </ul>
         </div>
-        <h2>LinkedIn</h2>
+    </div>
 
-    </section>
+
 
     <!-- Projects -->
-    <section id=projects class="contentWrapper">
+    <div id="projects" class="contentWrapper">
         <h1>Projects</h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis consequatur exercitationem nisi, id
             adipisci culpa fuga nulla error quam dicta natus cumque cupiditate excepturi nam veniam maxime minus neque
@@ -120,11 +137,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
 
     <!-- Contact -->
-    <section id="contact" class="contentWrapper">
+    <div id="contact" class="contentWrapper">
         <h1>Contact</h1>
         <p>Send a quick note if you would like to get in touch!</p>
         <div class="container-fluid">
@@ -146,9 +163,11 @@
                 </div>
             </form>
         </div>
+    </div>
+    
         <!-- Footer -->
 
-
+</section>
         <!-- Bootstrap's script tag: Script tag links to our JavaScript; https://getbootstrap.com/ -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

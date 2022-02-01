@@ -3,7 +3,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
     padding: 0;
     margin: 0;
-    background-color: #f7f7f7;
+    background-color: #e9e9e9;
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     background-size: 100% 100%;
@@ -48,6 +48,34 @@ p {
 header {
     padding: 2.5em 0 0.5em;
     margin: 0 0 2.0em;
-    background-color: #e9e9e9;
+    /* background-color: #e9e9e9; */
+}
+
+nav {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+nav#utilityMenu {
+    float: right;
+    height: 2.5em;
+    margin: -5.0em 0 0 0;
+    padding: 0.35em;
+}
+
+#intro {
+    /* margin: 0 auto; */
+    text-align: center;
+}
+
+/* .skillsets {
+    text-align: center;
+} */
+
+.skillsets ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0.6em;
+    padding: 0;
 }
 
