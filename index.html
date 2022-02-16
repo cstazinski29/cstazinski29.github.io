@@ -15,31 +15,35 @@
 <body>
     <header>
         <div class="contentWrapper">
-            <h1>You Can Call Me Stizzy</h1>
-
+            <div>
+                <h1 id="title">You Can Call Me Stizzy</h1>
+            </div>
             <!-- Navbar -->
-            <nav id="utilityMenu" class="navbar navbar-expand-lg navbar-light" style="background-color: transparent;">
-                <div class="container-fluid">
-                    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-                    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            <div>
+                <nav id="utilityMenu" class="navbar navbar-expand-lg navbar-light"
+                    style="background-color: transparent;">
+                    <div class="container-fluid">
+                        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button> -->
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">About Me</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Projects</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
-                            </li>
-                        </ul>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">About Me</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Projects</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-            </nav>
+                </nav>
+            </div>
         </div>
     </header>
 
@@ -47,131 +51,140 @@
 
 
     <!-- About Me -->
-<section id="main">
-    <div id="intro" class="contentWrapper">
-        <img src="./assets/headshot.jpg" alt="Headshot" style="border-radius: 50px;" width="300em" height="200em">
-        <h1>Chris Stazinski</h1>
-        <p>Being really bad at something is the first step toward being sorta good at something.</p>
-        <a href="#"><img src="./assets/linkedinLogo.png" alt="LinkedIn" height="25em" width="25em" /></a>
-    </div>
+    <section id="main">
+        <div id="intro" class="contentWrapper">
+            <img id="headshot" src="./assets/headshot.jpg" alt="Headshot">
+            <h1>Chris Stazinski
+            <a href="#"><img src="./assets/linkedinLogo.png" alt="LinkedIn" id="linkedIn"/></a>
+            </h1>
+            <p>My name is Chris, but you can call me Stizzy.</p>
+            
+        </div>
 
-    <div id="about" class="contentWrapper">
-        <h1>About Me</h1>
-        <h2>Bio</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, commodi labore rerum, corporis atque nulla
-            magni nobis saepe accusamus ea cumque quo tempora numquam hic soluta illum, voluptatibus veritatis unde!</p>
-        
-        <!-- <div class="skillpanel">
+        <div id="about" class="contentWrapper">
+            <h1>About Me</h1>
+            <h2>Bio</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, commodi labore rerum, corporis atque
+                nulla
+                magni nobis saepe accusamus ea cumque quo tempora numquam hic soluta illum, voluptatibus veritatis unde!
+            </p>
+
+            <!-- <div class="skillpanel">
             <img src="" alt="Icon">
             <h3>skillname</h3>
             <p>description</p>
         </div> -->
-        <div class="skillsets">
-        <h2>Skillsets</h2>
-        <ul>
-            <li>
-            <div class="card" style="width: 5rem;">
-                <img src="./assets/htmlIcon.png" class="card-img-top" alt="HTML">
-                <div class="card-body">
-                    <h5 class="card-title">HTML</h5>
-                    <p class="card-text">Level: Basic</p>
-                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                </div>
-            </div>
-            </li>
-            <li>
-            <div class="card" style="width: 5rem;">
-                <img src="./assets/excelIcon.png" class="card-img-top" alt="Excel">
-                <div class="card-body">
-                    <h5 class="card-title">Excel</h5>
-                    <p class="card-text">Level: Proficient</p>
-                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                </div>
-            </div>
-            </li>
-            <li>
-            <div class="card" style="width: 5rem;">
-                <img src="./assets/wordIcon.png" class="card-img-top" alt="Word">
-                <div class="card-body">
-                    <h5 class="card-title">Word</h5>
-                    <p class="card-text">Level: Proficient</p>
-                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                </div>
-            </div>
-            </li>
-        </ul>
-        </div>
-    </div>
-
-
-
-    <!-- Projects -->
-    <div id="projects" class="contentWrapper">
-        <h1>Projects</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis consequatur exercitationem nisi, id
-            adipisci culpa fuga nulla error quam dicta natus cumque cupiditate excepturi nam veniam maxime minus neque
-            aspernatur.</p>
-        <div>
-            <div class="card" style="width: 18rem;">
-                <img src="./assets/projects/cssCreature.png" class="card-img-top" alt="CSS Creature">
-                <div class="card-body">
-                    <h5 class="card-title">CSS Creature</h5>
-                    <p class="card-text">Built a creature using only HTML and CSS.</p>
-                    <a href="#" class="btn btn-primary">Visit site</a>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="./assets/projects/staticStorefront.png" class="card-img-top" alt="Static Storefront">
-                <div class="card-body">
-                    <h5 class="card-title">Static Storefront</h5>
-                    <p class="card-text">Built a basic storefront using HTML and CSS.</p>
-                    <a href="#" class="btn btn-primary">Visit site</a>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="./assets/projects/underConstruction.jpeg" class="card-img-top" alt="Under Construction">
-                <div class="card-body">
-                    <h5 class="card-title">New Project: In Progress</h5>
-                    <p class="card-text">More projects will be added later!</p>
-                    <a href="https://youtu.be/dQw4w9WgXcQ" class="btn btn-primary" target="_blank">Occupy Your Time</a>
-                </div>
+            <div class="skillsets">
+                <h2>Skillsets</h2>
+                <ul>
+                    <li>
+                        <div class="card" style="width: 5rem;">
+                            <img src="./assets/htmlIcon.png" class="card-img-top" alt="HTML">
+                            <div class="card-body">
+                                <h5 class="card-title">HTML</h5>
+                                <p class="card-text">Level: Basic</p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card" style="width: 5rem;">
+                            <img src="./assets/excelIcon.png" class="card-img-top" alt="Excel">
+                            <div class="card-body">
+                                <h5 class="card-title">Excel</h5>
+                                <p class="card-text">Level: Proficient</p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card" style="width: 5rem;">
+                            <img src="./assets/wordIcon.png" class="card-img-top" alt="Word">
+                            <div class="card-body">
+                                <h5 class="card-title">Word</h5>
+                                <p class="card-text">Level: Proficient</p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
-    </div>
 
 
-    <!-- Contact -->
-    <div id="contact" class="contentWrapper">
-        <h1>Contact</h1>
-        <p>Send a quick note if you would like to get in touch!</p>
-        <div class="container-fluid">
-            <form action="https://formspree.io/f/mayveekq" method="POST">
-                <div class="mb-3">
-                    <label class="form-label">
-                        Your email:
-                        <input type="email" name="_replyto" class="form-control" placeholder="name@example.com">
-                    </label>
+
+        <!-- Projects -->
+        <div id="projects" class="contentWrapper">
+            <h1>Projects</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis consequatur exercitationem nisi,
+                id
+                adipisci culpa fuga nulla error quam dicta natus cumque cupiditate excepturi nam veniam maxime minus
+                neque
+                aspernatur.</p>
+            <div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/projects/cssCreature.png" class="card-img-top" alt="CSS Creature">
+                    <div class="card-body">
+                        <h5 class="card-title">CSS Creature</h5>
+                        <p class="card-text">Built a creature using only HTML and CSS.</p>
+                        <a href="#" class="btn btn-primary">Visit site</a>
+                    </div>
                 </div>
-                <div class="mb-3">
-                    <label class="form-label">
-                        Your message:
-                        <textarea name="message" class="form-control" placeholder="Tell me about yourself!"></textarea>
-                    </label>
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/projects/staticStorefront.png" class="card-img-top" alt="Static Storefront">
+                    <div class="card-body">
+                        <h5 class="card-title">Static Storefront</h5>
+                        <p class="card-text">Built a basic storefront using HTML and CSS.</p>
+                        <a href="#" class="btn btn-primary">Visit site</a>
+                    </div>
                 </div>
-                <div class="mb-3">
-                    <button type="submit">Send</button>
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/projects/underConstruction.jpeg" class="card-img-top" alt="Under Construction">
+                    <div class="card-body">
+                        <h5 class="card-title">New Project: In Progress</h5>
+                        <p class="card-text">More projects will be added later!</p>
+                        <a href="https://youtu.be/dQw4w9WgXcQ" class="btn btn-primary" target="_blank">Occupy Your
+                            Time</a>
+                    </div>
                 </div>
-            </form>
+            </div>
         </div>
-    </div>
-    
+
+
+        <!-- Contact -->
+        <div id="contact" class="contentWrapper">
+            <h1>Contact</h1>
+            <p>Send a quick note if you would like to get in touch!</p>
+            <div class="container-fluid">
+                <form action="https://formspree.io/f/mayveekq" method="POST">
+                    <div class="mb-3">
+                        <label class="form-label">
+                            Your email:
+                            <input type="email" name="_replyto" class="form-control" placeholder="name@example.com">
+                        </label>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">
+                            Your message:
+                            <textarea name="message" class="form-control"
+                                placeholder="Tell me about yourself!"></textarea>
+                        </label>
+                    </div>
+                    <div class="mb-3">
+                        <button type="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
         <!-- Footer -->
 
-</section>
-        <!-- Bootstrap's script tag: Script tag links to our JavaScript; https://getbootstrap.com/ -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-            crossorigin="anonymous"></script>
+    </section>
+
+    <!-- Bootstrap's script tag: Script tag links to our JavaScript; https://getbootstrap.com/ -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

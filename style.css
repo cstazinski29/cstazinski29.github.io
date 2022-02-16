@@ -1,5 +1,8 @@
+
+/* SET INITIAL FONT SIZES AND COLORS, AND OVERALL WRAPPING */
+
 body {
-    font-size: 80%;
+    font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
     padding: 0;
     margin: 0;
@@ -13,6 +16,7 @@ body {
 h1 {
     color: #1493a4;
     font-size: 2.0em;
+    /* font-size: 32px; */
     margin: 0.5em 0 0.5em 0;
     padding: 0;
 }
@@ -45,6 +49,7 @@ p {
     padding: 0 3.0em;
 }
 
+/* HEADER FORMATTING */
 header {
     padding: 2.5em 0 0.5em;
     margin: 0 0 2.0em;
@@ -52,16 +57,22 @@ header {
 }
 
 nav {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 5px;
 }
 
-nav#utilityMenu {
+.nav-item{
+    margin: 0 0.75em;
+}
+
+/* nav#utilityMenu {
     float: right;
     height: 2.5em;
     margin: -5.0em 0 0 0;
     padding: 0.35em;
-}
+} */
+
+/* INTRODUCTION FORMATTING */
 
 #intro {
     /* margin: 0 auto; */
@@ -71,6 +82,24 @@ nav#utilityMenu {
 /* .skillsets {
     text-align: center;
 } */
+
+#headshot {
+    /* float: left; */
+    border-radius: 50px;
+    width: 33%;
+    height: auto;
+}
+
+#linkedIn{
+    height: 0.8em;
+    width: 0.8em;
+    padding: auto 2em;
+    vertical-align: middle;
+    /* border-left: solid 1px black; */
+}
+
+
+/* ABOUT ME FORMATTING */
 
 .skillsets ul li{
     display: inline-block;
