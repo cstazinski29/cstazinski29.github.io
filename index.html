@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="back_to_top">
         <div class="contentWrapper">
             <div>
                 <h1 id="title">My Portfolio</h1>
@@ -31,13 +31,13 @@
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">About Me</a>
+                                    <a class="nav-link active" aria-current="page" href="#about_me">About Me</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Projects</a>
+                                    <a class="nav-link" href="#projects">Projects</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact</a>
+                                    <a class="nav-link" href="#contact">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -57,11 +57,11 @@
             <h1>Chris Stazinski
                 <a href="#"><img src="./assets/linkedinLogo.png" alt="LinkedIn" id="linkedIn" /></a>
             </h1>
-            <p>My name is Chris, but you can call me Stizzy.</p>
+            <p>Being really bad at something is the first step toward being sorta good at something.</p>
 
         </div>
-
-        <div id="about" class="contentWrapper">
+    </br>
+        <div id="about_me" class="contentWrapper">
             <h1>About Me</h1>
 
             <div class="bio borderWrap">
@@ -78,16 +78,62 @@
             <h3>skillname</h3>
             <p>description</p>
         </div> -->
-            <div class="skillsets borderWrap">
+            <div class="borderWrap">
+                <!-- class="skillsets" -->
                 <h2 class="floatLeft">Skillsets</h2>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="card mb-3 skillsets">
+                        <div class="row g-0">
+                            <div class="col-md-4 iconDiv">
+                                <img src="./assets/htmlIcon.png" class="img-fluid rounded-start icon" alt="HTML">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">HTML</h5>
+                                    <p class="card-text">Basic</p>
+                                    <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 skillsets">
+                        <div class="row g-0">
+                            <div class="col-md-4 iconDiv">
+                                <img src="./assets/excelIcon.png" class="img-fluid rounded-start icon" alt="Excel">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Excel</h5>
+                                    <p class="card-text">Basic</p>
+                                    <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 skillsets">
+                        <div class="row g-0">
+                            <div class="col-md-4 iconDiv">
+                                <img src="./assets/wordIcon.png" class="img-fluid rounded-start icon" alt="Word">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Word</h5>
+                                    <p class="card-text">Proficient</p>
+                                    <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--                   
                 <ul>
                     <li>
                         <div class="card" style="width: 5rem;">
-                            <img src="./assets/htmlIcon.png" class="card-img-top" alt="HTML">
+                            <img src="./assets/excelIcon.png" class="card-img-top" alt="Excel">
                             <div class="card-body">
-                                <h5 class="card-title">HTML</h5>
-                                <p class="card-text">Level: Basic</p>
-                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                                <h5 class="card-title">Excel</h5>
+                                <p class="card-text">Level: Proficient</p>
                             </div>
                         </div>
                     </li>
@@ -97,7 +143,6 @@
                             <div class="card-body">
                                 <h5 class="card-title">Excel</h5>
                                 <p class="card-text">Level: Proficient</p>
-                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                             </div>
                         </div>
                     </li>
@@ -107,24 +152,25 @@
                             <div class="card-body">
                                 <h5 class="card-title">Word</h5>
                                 <p class="card-text">Level: Proficient</p>
-                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                             </div>
                         </div>
                     </li>
-                </ul>
+                </ul> -->
             </div>
         </div>
 
 
-
+    </br>
         <!-- Projects -->
         <div id="projects" class="contentWrapper">
             <h1>Projects</h1>
+            <div class="borderWrap">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis consequatur exercitationem nisi,
                 id
                 adipisci culpa fuga nulla error quam dicta natus cumque cupiditate excepturi nam veniam maxime minus
                 neque
                 aspernatur.</p>
+            </div>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <!--
                 <div class="card mb-3" style="max-width: 540px;">
@@ -186,7 +232,7 @@
             </div>
         </div>
 
-
+    </br>
         <!-- Contact -->
         <div id="contact" class="contentWrapper">
             <h1>Contact</h1>
@@ -212,10 +258,13 @@
                 </form>
             </div>
         </div>
+    </section>
+    </br>
 
         <!-- Footer -->
-
-    </section>
+    <footer>
+        <p><a class="nav-link" id="footer" href="#back_to_top">Back to top</a></p>
+    </footer>
 
     <!-- Bootstrap's script tag: Script tag links to our JavaScript; https://getbootstrap.com/ -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
