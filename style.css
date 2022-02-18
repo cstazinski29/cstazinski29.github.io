@@ -167,6 +167,10 @@ nav {
     text-align: center;
 }
 
+.italics {
+    font-style: italic;
+}
+
 /* CONTACT FORMATTING */
 
 #contact {
