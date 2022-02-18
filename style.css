@@ -25,6 +25,11 @@ h1 {
     padding: 0;
 }
 
+#title {
+    text-decoration: none;
+    color:#1493a4;
+}
+
 h2 {
     color: #63c8c4;
     font-size: 1.7em;
