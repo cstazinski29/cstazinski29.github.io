@@ -69,21 +69,20 @@ nav {
     border-radius: 5px;
 }
 
-.nav-item{
-    margin: 0 0.75em;
-}
-
-/* nav#utilityMenu {
-    float: right;
-    height: 2.5em;
-    margin: -5.0em 0 0 0;
-    padding: 0.35em;
+/* #utilityMenu {
+    height: 100px;
+    width: 100%;
 } */
 
 /* INTRODUCTION FORMATTING */
 
 #intro {
     text-align: center;
+}
+
+#blurb {
+    font-size: 1.1em;
+    font-style: italic;
 }
 
 /* .skillsets {
@@ -97,12 +96,14 @@ nav {
     height: auto;
 }
 
-#linkedIn{
-    height: 0.8em;
+.docIcons{
+    height: 2em;
+    width: 2em;
+    /* height: 0.8em;
     width: 0.8em;
-    padding: auto 2em;
+    padding: auto 2em; */
+    margin: auto 0.5em;
     vertical-align: middle;
-    /* border-left: solid 1px black; */
 }
 
 
@@ -180,7 +181,7 @@ nav {
 
 #contact {
     text-align: center;
-    /* border-top: 1px solid rgba(100, 100, 100); */
+    border-top: 1px solid rgba(100, 100, 100);
     margin-top: 2em;
 }
 
@@ -194,16 +195,25 @@ nav {
 }
 
 #about_site {
-    border-top: 1px solid rgba(100, 100, 100);
+    /* border-top: 1px solid rgba(100, 100, 100); */
     font-size: 0.9em;
     /* margin-top: 2em; */
 }
 
 /* FOOTER */
 
-#footer {
-    /* background-color: white; */
-    /* height: 2em; */
+footer{
     color: rgb(26, 26, 26);
     font-size: 0.9em;
+    /* border-top: dashed 1px black; */
+}
+#to_top {
+    color: rgb(26, 26, 26);
+}
+
+#footerText{
+    float: right;
+    margin-right: 1em;
+    /* color: rgb(26, 26, 26);
+    font-size: 0.9em; */
 }

@@ -13,14 +13,14 @@
 </head>
 
 <body>
-    <header id="back_to_top">
+    <header id="home">
         <div class="contentWrapper">
             <div>
-                <h1><a href="#back_to_top" id="title">My Portfolio</a></h1>
+                <h1><a href="#home" id="title">My Portfolio</a></h1>
             </div>
             <!-- Navbar -->
             <div>
-                <nav id="utilityMenu" class="navbar navbar-expand-lg navbar-light"
+                <nav id="utilityMenu" class="navbar navbar-expand-sm navbar-light"
                     style="background-color: transparent;">
                     <div class="container-fluid">
                         <!-- <a class="navbar-brand" href="#">Navbar</a> -->
@@ -37,10 +37,10 @@
                                     <a class="nav-link" href="#projects">Projects</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#contact">Contact</a>
+                                    <a class="nav-link" href="#about_site">About This Site</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#about_site">About This Site</a>
+                                    <a class="nav-link" href="#contact">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -58,12 +58,18 @@
         <div id="intro" class="contentWrapper">
             <img id="headshot" src="./assets/headshot.jpg" alt="Headshot">
             <h1>Chris Stazinski
-                <a href="https://www.linkedin.com/in/chrisstazinski/" target="_blank"><img src="./assets/icons/linkedinLogo.png" alt="LinkedIn" id="linkedIn" /></a>
+                
             </h1>
-            <p>Being really bad at something is the first step toward being sorta good at something.</p>
+            <p id="blurb">"Being really bad at something is the first step toward being sorta good at something"</p>
+            <a href="https://www.linkedin.com/in/chrisstazinski/" target="_blank"><img
+                    src="./assets/icons/linkedinLogo.png" alt="LinkedIn" class="docIcons" title="Visit LinkedIn" /></a>
+            <a href="https://github.com/cstazinski29" target="_blank" title="Visit Personal GitHub"><img
+                src="./assets/icons/githubIcon.png" alt="GitHub" class="docIcons" /></a>
+            <a href="./assets/Chris Stazinski Resume.pdf" target="_blank" title="View Resume"><img
+                src="./assets/icons/docIcon.png" alt="Resume" class="docIcons" /></a>
 
         </div>
-    </br>
+        </br>
         <div id="about_me" class="contentWrapper">
             <h1>About Me</h1>
 
@@ -116,7 +122,8 @@
                     <div class="card mb-3 skillsets">
                         <div class="row g-0">
                             <div class="col-md-4 iconDiv">
-                                <img src="./assets/icons/javaScriptIcon.png" class="img-fluid rounded-start icon" alt="JavaScript">
+                                <img src="./assets/icons/javaScriptIcon.png" class="img-fluid rounded-start icon"
+                                    alt="JavaScript">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
@@ -158,7 +165,8 @@
                     <div class="card mb-3 skillsets">
                         <div class="row g-0">
                             <div class="col-md-4 iconDiv">
-                                <img src="./assets/icons/tableauIcon.png" class="img-fluid rounded-start icon" alt="Tableau">
+                                <img src="./assets/icons/tableauIcon.png" class="img-fluid rounded-start icon"
+                                    alt="Tableau">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
@@ -205,13 +213,15 @@
         </div>
 
 
-    </br>
+        </br>
         <!-- Projects -->
         <div id="projects" class="contentWrapper">
             <h1>Projects</h1>
             <div class="borderWrap">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis consequatur exercitationem nisi, id adipisci culpa fuga nulla error quam dicta natus cumque cupiditate excepturi nam veniam maxime minus neque aspernatur.</p>
-            <p>Build during the a Coding Foundations course at Eleven Fifty Academy</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis consequatur exercitationem
+                    nisi, id adipisci culpa fuga nulla error quam dicta natus cumque cupiditate excepturi nam veniam
+                    maxime minus neque aspernatur.</p>
+                <p>Build during the a Coding Foundations course at Eleven Fifty Academy</p>
             </div>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <!--
@@ -236,12 +246,18 @@
                         <img src="./assets/projects/cssCreature.png" class="card-img-top" alt="CSS Creature">
                         <div class="card-body">
                             <h5 class="card-title">CSS Creature</h5>
-                            <p class="card-text">Created a <span class="italics">somewhat terrifying</span> picture of Pichu using only HTML and CSS.</p>
-                            <p class="card-text">This was my first attempt to create and manipulate shapes with HTML and CSS, and I learned much about element positioning in the code and on screen. Changing the position of one element and having three other elements move was a very humbling experience.</p>
-                            <p class="card-text">This was created within CodePen, and you can view the Pen using the link below (but don't be too impressed).</p>
+                            <p class="card-text">Created a <span class="italics">somewhat terrifying</span> picture of
+                                Pichu using only HTML and CSS.</p>
+                            <p class="card-text">This was my first attempt to create and manipulate shapes with HTML and
+                                CSS, and I learned much about element positioning in the code and on screen. Changing
+                                the position of one element and having three other elements move was a very humbling
+                                experience.</p>
+                            <p class="card-text">This was created within CodePen, and you can view the Pen using the
+                                link below (but don't be too impressed).</p>
                         </div>
                         <div class="card-footer">
-                            <a href="https://codepen.io/cstazinski/pen/mdqJQGv" target="_blank" class="btn btn-primary">Visit Page</a>
+                            <a href="https://codepen.io/cstazinski/pen/mdqJQGv" target="_blank"
+                                class="btn btn-primary">Visit Page</a>
                         </div>
                     </div>
                 </div>
@@ -252,35 +268,65 @@
                         <div class="card-body">
                             <h5 class="card-title">Static Storefront</h5>
                             <p class="card-text">Designed a basic storefront using HTML and CSS.</p>
-                            <p class="card-text">Building further upon the skillsets with HTML and CSS, I build a basic storefront for a pizza shop. As you can see, I still have room to grow in the design and positioning front, but adding multiple sections and some dynamic interaction to the page was an early win.</p>
-                            <p class="card-text">This storefront is published as a GitHub Page and can be viewed using the link below.</p>
+                            <p class="card-text">Building further upon the skillsets with HTML and CSS, I build a basic
+                                storefront for a pizza shop. As you can see, I still have room to grow in the design and
+                                positioning front, but adding multiple sections and some dynamic interaction to the page
+                                was an early win.</p>
+                            <p class="card-text">This storefront is published as a GitHub Page and can be viewed using
+                                the link below.</p>
                         </div>
                         <div class="card-footer">
-                            <a href="https://cstazinski29.github.io/StaticStorefront/" target="_blank" class="btn btn-primary">Visit Page</a>
+                            <a href="https://cstazinski29.github.io/StaticStorefront/" target="_blank"
+                                class="btn btn-primary">Visit Page</a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100">
                         <!-- style="width: 18rem;" -->
-                        <img src="./assets/projects/nerdleGame.png" class="card-img-top"
-                            alt="Under Construction">
+                        <img src="./assets/projects/nerdleGame.png" class="card-img-top" alt="Under Construction">
                         <div class="card-body">
                             <h5 class="card-title">Console Game: Nerdle</h5>
                             <p class="card-text">A couple nerds' take on the hit game Wordle, built using C#.</p>
-                            <p class="card-text">This game was designed and built in partnership with a classmate from ElevenFifty Academy, and incorporates classes, loops, methods, etc for a simple yet fun playthrough.</p>
-                            <p class="card-text">The code for this game is available on GitHub, and the repo can be viewed using the link below.</p>
+                            <p class="card-text">This game was designed and built in partnership with a classmate from
+                                ElevenFifty Academy, and incorporates classes, loops, methods, etc for a simple yet fun
+                                playthrough.</p>
+                            <p class="card-text">The code for this game is available on GitHub, and the repo can be
+                                viewed using the link below.</p>
                         </div>
                         <div class="card-footer">
-                            <a href="https://github.com/troylw123/Nerdle" class="btn btn-primary" target="_blank">Visit Page</a>
+                            <a href="https://github.com/troylw123/Nerdle" class="btn btn-primary" target="_blank">Visit
+                                Page</a>
                             <!-- <a href="https://youtu.be/dQw4w9WgXcQ" class="btn btn-primary" target="_blank">Occupy Your Time</a> -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-    </br>
+        </br>
+        <!-- About This Site -->
+        <div id="about_site" class="contentWrapper">
+            <h1>About This Site</h1>
+            <div class="borderWrap">
+                <p>This site itself has simple concepts, but the layout, the colors, and the content were thoughtfully
+                    chosen to reflect a part of who I am.</p>
+                <p>The overall color scheme is a grayscale, as I have had my phone display in black and white for about
+                    four years now, and I have grown to appreciate the muted color scheme that is in contrast with the
+                    vibrant colors typically thrown at us. However, I chose to color each title as a shade of teal (my
+                    favorite color).</p>
+                <p>This site's layout began with an attempt to include as many features as I possibly could in the first
+                    section of the site. As one might expect for an early learner of anything, I became quickly
+                    overwhelmed trying to do too much too soon. I realized that, reflected upon what is most important
+                    now, and chose to go with a simpler layout to ensure that I showcase the right information prior to
+                    adding excess features.</p>
+                <p>I am sure that I will learn more about best practices in website presentation and find obvious faults
+                    in this method as I learn more. Yet, I felt it was important for my first portfolio to favor aspects
+                    of my style.</p>
+                <p class="italics">Thank you for taking the time to view my work!</p>
+                <!-- <p>Lastly, I would like to touch on the projects highlighted here. </p> -->
+            </div>
+        </div>
+        <!-- </br> -->
         <!-- Contact -->
         <div id="contact" class="contentWrapper">
             <h1>Contact</h1>
@@ -306,25 +352,15 @@
                 </form>
             </div>
         </div>
-    </br>
-    <!-- About This Site -->
-    <div id="about_site" class="contentWrapper">
-        <h1>About This Site</h1>
-        <div class="borderWrap">
-        <p>This site itself has simple concepts, but the layout, the colors, and the content were thoughtfully chosen to reflect a part of who I am.</p>
-        <p>The overall color scheme is a grayscale, as I have had my phone display in black and white for about four years now, and I have grown to appreciate the muted color scheme that is in contrast with the vibrant colors typically thrown at us. However, I chose to color each title as a shade of teal (my favorite color).</p>
-        <p>This site's layout began with an attempt to include as many features as I possibly could in the first section of the site. As one might expect for an early learner of anything, I became quickly overwhelmed trying to do too much too soon. I realized that, reflected upon what is most important now, and chose to go with a simpler layout to ensure that I showcase the right information prior to adding excess features.</p>
-        <p>I am sure that I will learn more about best practices in website presentation and find obvious faults in this method as I learn more. Yet, I felt it was important for my first portfolio to favor aspects of my style.</p>
-        <p class="italics">Thank you for taking the time to view my work!</p>
-        <!-- <p>Lastly, I would like to touch on the projects highlighted here. </p> -->
-    </div>
-    </div>
+        </br>
+
     </section>
     <!-- </br> -->
 
-        <!-- Footer -->
+    <!-- Footer -->
     <footer>
-        <p><a class="nav-link" id="footer" href="#back_to_top">Back to top</a></p>
+        <p id="footerText">Built in 2022 by Chris Stazinski</p>
+        <p><a class="nav-link" id="to_top" href="#home">Back to top</a></p>
     </footer>
 
     <!-- Bootstrap's script tag: Script tag links to our JavaScript; https://getbootstrap.com/ -->
