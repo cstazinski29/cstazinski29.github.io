@@ -46,7 +46,7 @@ h3 {
 
 p {
     /* color: #555; */
-    font-size: 1.2em;
+    font-size: 1.0em;
     line-height: 1.4em;
     margin: 0 0em 0.75em 0px;
 }
@@ -121,6 +121,10 @@ nav {
     margin: 10px;
 }
 
+#definition:hover{
+    text-decoration: underline;
+}
+
 /* .skillsets ul li{
     display: inline-block;
     list-style: none;
@@ -155,6 +159,12 @@ nav {
 
 
 /* PROJECT FORMATTING */
+
+#toEmail{
+    color: #1493a4;
+    font-weight: bold;
+    text-decoration: none;
+}
 
 .card-img-top {
     max-width: 100%;
@@ -194,11 +204,9 @@ nav {
     max-width: 100%;
 }
 
-#about_site {
-    /* border-top: 1px solid rgba(100, 100, 100); */
+/* #about_site {
     font-size: 0.9em;
-    /* margin-top: 2em; */
-}
+} */
 
 /* FOOTER */
 
@@ -209,6 +217,7 @@ footer{
 }
 #to_top {
     color: rgb(26, 26, 26);
+    float: left;
 }
 
 #footerText{
