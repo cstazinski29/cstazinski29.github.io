@@ -94,6 +94,7 @@ nav {
     border-radius: 50px;
     width: 33%;
     height: auto;
+    /* filter: grayscale(100%); */
 }
 
 .docIcons{
