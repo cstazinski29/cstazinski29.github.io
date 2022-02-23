@@ -38,7 +38,7 @@ h2 {
 }
 
 h3 {
-    color: #72cedd;
+    /* color: #72cedd; */
     font-size: 1.4em;
     margin: 0.5em 0 0.30em 0;
     padding: 0;
@@ -48,7 +48,7 @@ p {
     /* color: #555; */
     font-size: 1.0em;
     line-height: 1.4em;
-    margin: 0 0em 0.75em 0px;
+    margin: 0 0 0.75em 0;
 }
 
 .contentWrapper {
@@ -83,6 +83,8 @@ nav {
 #blurb {
     font-size: 1.1em;
     font-style: italic;
+    margin: 0.5em 0;
+
 }
 
 /* .skillsets {
@@ -191,13 +193,18 @@ nav {
 /* CONTACT FORMATTING */
 
 #contact {
-    text-align: center;
-    border-top: 1px solid rgba(100, 100, 100);
+    /* text-align: center; */
     margin-top: 2em;
 }
 
-#contact h1 {
+
+/* #contact h1 {
     text-align: left;
+    border: 1px solid rgba(100, 100, 100);
+} */
+
+.form-control{
+    margin-top: 0.5em;
 }
 
 .form-label{
@@ -223,7 +230,7 @@ footer{
 
 #footerText{
     float: right;
-    margin-right: 1em;
+    /* margin-right: 1em; */
     /* color: rgb(26, 26, 26);
     font-size: 0.9em; */
 }
