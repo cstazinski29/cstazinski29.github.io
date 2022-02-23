@@ -231,9 +231,6 @@ footer{
 }
 #to_top {
     color: rgb(26, 26, 26);
-    float: left;
-}
-
-#footerText{
-    float: right;
+    margin: 0;
+    padding: 0;
 }
